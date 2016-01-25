@@ -3,7 +3,7 @@
 %{?nodejs_find_provides_and_requires}
 
 Name:       %{?scl_prefix}nodejs-lru-cache
-Version:    2.5.0
+Version:    2.7.0
 Release:    1%{?dist}
 Summary:    A least recently used cache object for Node.js
 License:    MIT
@@ -41,6 +41,9 @@ rm -rf %{buildroot}
 %doc CONTRIBUTORS README.md LICENSE
 
 %changelog
+* Mon Nov 30 2015 Tomas Hrcka <thrcka@redhat.com> - 2.7.0-1
+- New upstream release
+
 * Thu Jan 16 2014 Tomas Hrcka <thrcka@redhat.com> - 2.5.0-1
 - New upstream release 2.5.0
 - AUTHORS renamed to CONTRIBUTORS
